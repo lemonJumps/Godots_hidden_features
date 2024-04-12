@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "686ee086d69b3805",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8865029f23f202b4",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PhysicalBone3D.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PhysicalBone3D.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhysicalBone3D.md"
+                "file": "README.md"
               }
             }
           }
@@ -160,9 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "301e9da04538b7b9",
+  "active": "686ee086d69b3805",
   "lastOpenFiles": [
-    "About.md",
-    "PhysicalBone3D.md"
+    "PhysicalBone3D.md",
+    "README.md",
+    "About.md"
   ]
 }
