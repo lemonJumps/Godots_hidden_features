@@ -20,6 +20,8 @@ Now there's few assumptions that we have to make, and just hope that all headset
 `get_hand_joint_position`
 `get_hand_joint_radius`
 
+**Also to note**, You have to take the instance of OpenXR from your [[vr initialization script]]
+
 So to do this we can take rotations and get a *open* and *closed* rotations, and then see where these angles are between all the angles.
 
 Here we can decide wether we'll pass actual rotations onto joints, or use them to drive animations.

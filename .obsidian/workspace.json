@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "781b5e76e2a23bd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lemons Solutions/vr initialization script.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lemons Solutions/OpenXR hand tracking.md",
+                "file": "Lemons Solutions/vr initialization script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lemons Solutions/OpenXR hand tracking.md",
+                "file": "Lemons Solutions/vr initialization script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lemons Solutions/OpenXR hand tracking.md"
+                "file": "Lemons Solutions/vr initialization script.md"
               }
             }
           }
@@ -146,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee9af18a78831f34",
+  "active": "781b5e76e2a23bd4",
   "lastOpenFiles": [
-    "Hidden Docs/PhysicalBone3D.md",
     "Lemons Solutions/OpenXR hand tracking.md",
+    "Lemons Solutions/vr initialization script.md",
+    "Hidden Docs/PhysicalBone3D.md",
     "Hidden Docs",
     "Lemons Solutions",
     "About.md",
