@@ -15,9 +15,20 @@ And **you'll need to provide your own deletion for the object** otherwise this w
 
 #### How to take reference
 Calling `Ref( RefCounted )` will automatically take reference and return a `Ref<RefCounted>`.
+This will also happen if you simply assign an empty `Ref` as well:
+```
+Ref<abc> ref = ref2;
+```
 
-deleting this object will decrease the reference count automatically.
-
+#### How to create a reference with constructor that takes parameters
+Normally you'd use `ref.instantiate()` to create a new object, but this doesn't work if you have parameters.
+So instead you can wrap an object in memnew, (*this is how it's actually done inside of* `instantiate()`)
+```
+Ref<abc> ref(memnew(
+	abc(param1, param2) // non default constructor
+	));
+```
+note: *formating has no effect here, it's formated like this to emphasize the constructor*
 #### Implementations as they appear in engine:
 ```
 bool RefCounted::reference() {
