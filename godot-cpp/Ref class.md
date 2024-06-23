@@ -28,7 +28,7 @@ Ref<abc> ref(memnew(
 	abc(param1, param2) // non default constructor
 	));
 ```
-note: *formating has no effect here, it's formated like this to emphasize the constructor*
+note: *formatting has no effect here, it's formatted like this to emphasize the constructor*
 #### Implementations as they appear in engine:
 ```
 bool RefCounted::reference() {
