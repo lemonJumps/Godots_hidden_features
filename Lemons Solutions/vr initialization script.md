@@ -1,6 +1,6 @@
 A boiler plate script, that initializes openXR and makes it available to the rest of code
 
-```
+```gdscript
 extends XROrigin3D
 
 class_name OXR
@@ -25,6 +25,6 @@ func _ready():
 Mind you this essentially makes the class a singleton, so don't make more than one instance.
 
 The interface can be accessed via:
-```
+```gdscript
 OXR.xr_interface
 ```

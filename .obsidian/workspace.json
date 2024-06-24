@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "godot-cpp/Ref class.md",
+                "file": "godot-cpp/Typed array (or how to do arrays in gdextension).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ad98dd4d313377d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "godot-cpp/Making custom array type.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "godot-cpp/Ref class.md",
+                "file": "godot-cpp/Making custom array type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "godot-cpp/Ref class.md",
+                "file": "godot-cpp/Making custom array type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "godot-cpp/Ref class.md"
+                "file": "godot-cpp/Making custom array type.md"
               }
             }
           }
@@ -158,16 +171,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4949fc4b3e26cd40",
+  "active": "9ad98dd4d313377d",
   "lastOpenFiles": [
-    "Hidden Docs/PhysicalBone3D.md",
+    "godot-cpp/Typed array (or how to do arrays in gdextension).md",
+    "godot-cpp/Making custom array type.md",
+    "About.md",
     "godot-cpp/Ref class.md",
-    "Lemons Solutions/OpenXR hand tracking.md",
     "Lemons Solutions/vr initialization script.md",
+    "Lemons Solutions/OpenXR hand tracking.md",
+    "Hidden Docs/PhysicalBone3D.md",
     "godot-cpp",
     "Hidden Docs",
     "Lemons Solutions",
-    "About.md",
     "README.md"
   ]
 }

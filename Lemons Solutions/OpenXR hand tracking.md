@@ -33,7 +33,7 @@ The problem is each headset can rotate each joint at different times so calculat
 #### Calculating angles
 
 So this is very easy, you get the 100% angle and current to open and divide them :D
-```
+```gdscript
 var closed : Quaternion()
 var open : Quaternion()
 var current : Quaternion()

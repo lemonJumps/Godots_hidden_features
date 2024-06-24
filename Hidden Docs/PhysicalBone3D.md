@@ -11,7 +11,7 @@ Constraint Types:
 Each of these has their own properties, which you can find bellow.
 Now the thing about these is that they remain in the engine from godot 2/early godot 3 era, so they aren't accessible normally because of the naming from that era.
 
-```
+```gdscript
 # if in code, bone is created as:
 var bone := PhysicalBone3D.new()
 root.add_child(bone)    # add to scene

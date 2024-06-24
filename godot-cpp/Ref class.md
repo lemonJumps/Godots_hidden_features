@@ -16,21 +16,21 @@ And **you'll need to provide your own deletion for the object** otherwise this w
 #### How to take reference
 Calling `Ref( RefCounted )` will automatically take reference and return a `Ref<RefCounted>`.
 This will also happen if you simply assign an empty `Ref` as well:
-```
+```cpp
 Ref<abc> ref = ref2;
 ```
 
 #### How to create a reference with constructor that takes parameters
 Normally you'd use `ref.instantiate()` to create a new object, but this doesn't work if you have parameters.
 So instead you can wrap an object in memnew, (*this is how it's actually done inside of* `instantiate()`)
-```
+```cpp
 Ref<abc> ref(memnew(
 	abc(param1, param2) // non default constructor
 	));
 ```
 note: *formatting has no effect here, it's formatted like this to emphasize the constructor*
 #### Implementations as they appear in engine:
-```
+```cpp
 bool RefCounted::reference() {
     uint32_t rc_val = refcount.refval();
     bool success = rc_val != 0;
@@ -50,7 +50,7 @@ bool RefCounted::reference() {
 
   ```
 
-```
+```cpp
 bool RefCounted::unreference() {
     uint32_t rc_val = refcount.unrefval();
     bool die = rc_val == 0;
