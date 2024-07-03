@@ -8,53 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4949fc4b3e26cd40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "godot-cpp/Typed array (or how to do arrays in gdextension).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9ad98dd4d313377d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "godot-cpp/Typed array (or how to do arrays in gdextension).md",
+                "file": "godot-cpp/Implementing scripts and languages.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f2dc8f8f963f71c1",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
-          },
-          {
-            "id": "781b5e76e2a23bd4",
+            "id": "04ad2290d5f248f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hidden Docs/PhysicalBone3D.md",
+                "file": "godot-cpp/scripts and languages/Script Instance Info.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "godot-cpp/Typed array (or how to do arrays in gdextension).md",
+                "file": "godot-cpp/Implementing scripts and languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "godot-cpp/Typed array (or how to do arrays in gdextension).md",
+                "file": "godot-cpp/Implementing scripts and languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "godot-cpp/Typed array (or how to do arrays in gdextension).md"
+                "file": "godot-cpp/Implementing scripts and languages.md"
               }
             }
           }
@@ -181,18 +158,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f2dc8f8f963f71c1",
+  "active": "9ad98dd4d313377d",
   "lastOpenFiles": [
+    "godot-cpp/scripts and languages/Script Extension.md",
+    "About.md",
+    "README.md",
+    "godot-cpp/Implementing scripts and languages.md",
+    "godot-cpp/scripts and languages/Script Instance Info.md",
+    "godot-cpp/scripts and languages/Script Language.md",
+    "godot-cpp/scripts and languages",
+    "godot-cpp/Typed array (or how to do arrays in gdextension).md",
     "godot-cpp/Ref class.md",
     "godot-cpp/Making custom array type.md",
-    "godot-cpp/Typed array (or how to do arrays in gdextension).md",
-    "About.md",
     "Lemons Solutions/vr initialization script.md",
     "Lemons Solutions/OpenXR hand tracking.md",
     "Hidden Docs/PhysicalBone3D.md",
     "godot-cpp",
     "Hidden Docs",
-    "Lemons Solutions",
-    "README.md"
+    "Lemons Solutions"
   ]
 }
